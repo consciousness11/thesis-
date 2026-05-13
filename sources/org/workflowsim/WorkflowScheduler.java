@@ -29,6 +29,7 @@ import org.workflowsim.scheduling.DataAwareSchedulingAlgorithm;
 import org.workflowsim.scheduling.BaseSchedulingAlgorithm;
 import org.workflowsim.scheduling.DQNSchedulingAlgorithm;
 import org.workflowsim.scheduling.PPOSchedulingAlgorithm;
+import org.workflowsim.scheduling.RainbowSchedulingAlgorithm;
 import org.workflowsim.scheduling.FCFSSchedulingAlgorithm;
 import org.workflowsim.scheduling.MCTSchedulingAlgorithm;
 import org.workflowsim.scheduling.MaxMinSchedulingAlgorithm;
@@ -170,6 +171,9 @@ public class WorkflowScheduler extends DatacenterBroker {
                 break;
             case PPO:
                 algorithm = new PPOSchedulingAlgorithm();
+                break;
+            case RAINBOW:
+                algorithm = new RainbowSchedulingAlgorithm();
                 break;
             default:
                 algorithm = new StaticSchedulingAlgorithm();

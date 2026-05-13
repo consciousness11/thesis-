@@ -54,26 +54,32 @@ def main() -> None:
     logs = {
         "HEFT":     parse_log(results / "heft.log"),
         "DQN":      parse_log(results / "dqn.log"),
+        "Rainbow":  parse_log(results / "rainbow.log"),
         "PPO+GAT":  parse_log(results / "ppo.log"),
     }
 
-    print(f"{'workflow':<14}{'HEFT_make':>12}{'DQN_make':>12}{'PPO_make':>12}"
-          f"{'HEFT_E':>14}{'DQN_E':>14}{'PPO_E':>14}")
+    algs = ("HEFT", "DQN", "Rainbow", "PPO+GAT")
+
+    header = f"{'workflow':<14}"
+    for alg in algs:
+        header += f"{alg + '_mk':>12}"
+    for alg in algs:
+        header += f"{alg + '_E':>16}"
+    print(header)
     for wf in WORKFLOWS:
         cells = [f"{wf:<14}"]
-        for alg in ("HEFT", "DQN", "PPO+GAT"):
+        for alg in algs:
             mk, _ = logs[alg].get(wf, (float("nan"), float("nan")))
             cells.append(f"{mk:>12.2f}")
-        for alg in ("HEFT", "DQN", "PPO+GAT"):
+        for alg in algs:
             _, en = logs[alg].get(wf, (float("nan"), float("nan")))
-            cells.append(f"{en:>14.2f}")
+            cells.append(f"{en:>16.2f}")
         print("".join(cells))
 
     # ----- plot ----------------------------------------------------------------
     x = np.arange(len(WORKFLOWS))
-    width = 0.26
-    algs = ("HEFT", "DQN", "PPO+GAT")
-    colors = {"HEFT": "#4C72B0", "DQN": "#DD8452", "PPO+GAT": "#55A868"}
+    width = 0.2
+    colors = {"HEFT": "#4C72B0", "DQN": "#DD8452", "Rainbow": "#C44E52", "PPO+GAT": "#55A868"}
 
     fig, axes = plt.subplots(1, 2, figsize=(13, 5.2))
 
@@ -84,7 +90,7 @@ def main() -> None:
         for i, alg in enumerate(algs):
             vals = [logs[alg].get(wf, (float("nan"), float("nan")))[metric]
                     for wf in WORKFLOWS]
-            offset = (i - 1) * width
+            offset = (i - (len(algs) - 1) / 2) * width
             bars = ax.bar(x + offset, vals, width, label=alg, color=colors[alg])
             for rect, v in zip(bars, vals):
                 if np.isnan(v):
@@ -105,7 +111,7 @@ def main() -> None:
             ax.set_ylabel(ylabel + " (log scale)")
         ax.legend(loc="upper left")
 
-    fig.suptitle("HEFT vs DQN vs PPO+GAT  •  4 workflows × ~1000 tasks  •  20 heterogeneous VMs (mips ∈ {500,1000,1500,2000})  •  PPO sees first 256 of ~1000 DAG nodes",
+    fig.suptitle("HEFT vs DQN vs Rainbow-lite vs PPO+GAT  •  4 workflows × ~1000 tasks  •  20 heterogeneous VMs (mips ∈ {500,1000,1500,2000})  •  PPO sees first 256 of ~1000 DAG nodes",
                  fontsize=10)
     fig.tight_layout(rect=[0, 0, 1, 0.96])
     out = results / "comparison.png"
