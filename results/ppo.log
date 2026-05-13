@@ -1,7 +1,7 @@
-[RLBridge] connected to 127.0.0.1:8893
+[RLBridge] connected to 127.0.0.1:8898
 Initialising...
-[ep 01/01 Montage     ] makespan=125.10 energy=367970.20 jobs=101
-[ep 01/01 CyberShake  ] makespan=2999.77 energy=8577993.30 jobs=101
-[ep 01/01 Epigenomics ] makespan=36030.54 energy=113289690.40 jobs=101
-[ep 01/01 LIGO        ] makespan=1530.61 energy=5183561.50 jobs=101
+[ep 01/01 Montage     ] makespan=867.77 energy=2764419.55 jobs=1001
+[ep 01/01 CyberShake  ] makespan=4615.99 energy=14105905.07 jobs=1001
+[ep 01/01 Epigenomics ] makespan=178337.09 energy=677901195.80 jobs=998
+[ep 01/01 LIGO        ] makespan=10186.94 energy=38997907.57 jobs=1001
 [trainer] done.

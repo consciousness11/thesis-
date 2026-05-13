@@ -105,8 +105,8 @@ def main() -> None:
             ax.set_ylabel(ylabel + " (log scale)")
         ax.legend(loc="upper left")
 
-    fig.suptitle("HEFT vs DQN vs PPO+GAT  •  4 workflows × 100 tasks  •  20 homogeneous VMs",
-                 fontsize=12)
+    fig.suptitle("HEFT vs DQN vs PPO+GAT  •  4 workflows × ~1000 tasks  •  20 heterogeneous VMs (mips ∈ {500,1000,1500,2000})  •  PPO sees first 256 of ~1000 DAG nodes",
+                 fontsize=10)
     fig.tight_layout(rect=[0, 0, 1, 0.96])
     out = results / "comparison.png"
     fig.savefig(out, dpi=150)

@@ -24,7 +24,7 @@ from gymnasium import spaces
 from protocol import FrameError, recv_frame, send_frame
 
 
-MAX_TASKS = 128          # padded upper bound for DAG node count
+MAX_TASKS = 256          # padded upper bound for DAG node count
 MAX_VMS = 64             # action space size; assert in Java that VM count <= 64
 NODE_FEAT_DIM = 4        # log_length, depth, parent_count, child_count
 VM_FEAT_DIM = 4          # mips_norm, elec_cost, pending_finish_norm, is_idle

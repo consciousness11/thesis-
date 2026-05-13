@@ -47,7 +47,7 @@ public class PPOSchedulingAlgorithmExample {
     private static final int VM_NUM = 20;
 
     public static void main(String[] args) {
-        String daxPath = System.getProperty("ppo.dax", "config/dax/Montage_100.xml");
+        String daxPath = System.getProperty("ppo.dax", "config/dax/Montage_1000.xml");
         String wfName = System.getProperty("ppo.workflow", "Montage");
 
         File daxFile = new File(daxPath);
@@ -120,11 +120,12 @@ public class PPOSchedulingAlgorithmExample {
         LinkedList<CondorVM> list = new LinkedList<>();
         long size = 10000;
         int ram = 512;
-        int mips = 1000;
         long bw = 1000;
         int pesNumber = 1;
         String vmm = "Xen";
+        // Heterogeneous mips: 500 / 1000 / 1500 / 2000 cycling across VMs.
         for (int i = 0; i < vms; i++) {
+            int mips = 500 + (i % 4) * 500;
             list.add(new CondorVM(i, userId, mips, pesNumber, ram, bw, size, vmm,
                     new CloudletSchedulerSpaceShared()));
         }

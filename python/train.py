@@ -59,7 +59,7 @@ def main() -> None:
         env,
         policy_kwargs=policy_kwargs,
         verbose=1,
-        n_steps=256,
+        n_steps=128,
         batch_size=64,
         learning_rate=3e-4,
         tensorboard_log=str(Path(args.output_dir) / "tb"),

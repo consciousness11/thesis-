@@ -48,26 +48,26 @@ Entities started.
 0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #17 has been created in Datacenter #2, Host #0
 0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #18 has been created in Datacenter #2, Host #0
 0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #19 has been created in Datacenter #2, Host #0
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #0
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #1
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #2
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #3
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #4
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #5
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #6
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #7
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #8
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #9
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #10
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #11
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #12
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #13
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #14
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #15
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #16
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #17
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #18
-125.09699999999997: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #19
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #0
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #1
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #2
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #3
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #4
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #5
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #6
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #7
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #8
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #9
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #10
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #11
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #12
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #13
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #14
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #15
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #16
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #17
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #18
+812.0908333333333: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #19
 planner_Montage_Merger__Engine_0_Scheduler_0 is shutting down...
 Simulation: No more future events
 CloudInformationService: Notify all CloudSim entities for shutting down.
@@ -78,11 +78,11 @@ planner_Montage_Merger__Engine_0 is shutting down...
 planner_Montage_Merger__Engine_0_Scheduler_0 is shutting down...
 Simulation completed.
 Simulation completed.
-[Montage] makespan=125.10  energy=367970.20 W*s  jobs=101
+[Montage] makespan=812.09  energy=2648137.45 W*s  jobs=1001
 
 ===== MOPWSDRL summary (100 tasks per workflow) =====
 Workflow           Makespan  Energy(W*s)     Jobs
-Montage              125.10    367970.20      101
-CyberShake          2999.77   8577993.30      101
-Epigenomics        36030.54 113289690.40      101
-LIGO                1530.61   5183561.50      101
+Montage              812.09   2648137.45     1001
+CyberShake          4688.29  14243792.47     1001
+Epigenomics       202998.20 727738968.40      998
+LIGO                9747.91  38033286.30     1001
