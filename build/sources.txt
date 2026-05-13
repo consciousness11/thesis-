@@ -176,6 +176,8 @@ sources/org/workflowsim/scheduling/FCFSSchedulingAlgorithm.java
 sources/org/workflowsim/scheduling/MaxMinSchedulingAlgorithm.java
 sources/org/workflowsim/scheduling/MCTSchedulingAlgorithm.java
 sources/org/workflowsim/scheduling/MinMinSchedulingAlgorithm.java
+sources/org/workflowsim/scheduling/PPOSchedulingAlgorithm.java
+sources/org/workflowsim/scheduling/RLBridge.java
 sources/org/workflowsim/scheduling/RoundRobinSchedulingAlgorithm.java
 sources/org/workflowsim/scheduling/SchedulingAlgorithmInterface.java
 sources/org/workflowsim/scheduling/StaticSchedulingAlgorithm.java

@@ -91,6 +91,8 @@ examples/org/workflowsim/examples/scheduling/FCFSSchedulingAlgorithmExample.java
 examples/org/workflowsim/examples/scheduling/MAXMINSchedulingAlgorithmExample.java
 examples/org/workflowsim/examples/scheduling/MCTSchedulingAlgorithmExample.java
 examples/org/workflowsim/examples/scheduling/MINMINSchedulingAlgorithmExample.java
+examples/org/workflowsim/examples/scheduling/PPOSchedulingAlgorithmExample.java
+examples/org/workflowsim/examples/scheduling/PPOTrainerExample.java
 examples/org/workflowsim/examples/scheduling/RoundRobinSchedulingAlgorithmExample.java
 examples/org/workflowsim/examples/WorkflowSimAllExamplesTester.java
 examples/org/workflowsim/examples/WorkflowSimBasicExample1.java

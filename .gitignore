@@ -1,0 +1,25 @@
+# Java build artefacts
+build/
+*.class
+*.jar
+!lib/*.jar
+
+# Generated run outputs
+*.rt
+python/runs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+python/.venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
