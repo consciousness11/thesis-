@@ -1,0 +1,194 @@
+Initialising...
+Starting CloudSim version 3.0
+Datacenter_Montage is starting...
+Starting WorkflowSim 1.1.0
+planner_Montage is starting...
+planner_Montage_Merger_ is starting...
+planner_Montage_Merger__Engine_0 is starting...
+planner_Montage_Merger__Engine_0_Scheduler_0 is starting...
+Entities started.
+HEFT planner running with 100 tasks.
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Cloud Resource List received with 1 resource(s)
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #0 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #1 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #2 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #3 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #4 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #5 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #6 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #7 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #8 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #9 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #10 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #11 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #12 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #13 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #14 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #15 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #16 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #17 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #18 in Datacenter_Montage
+0.0: planner_Montage_Merger__Engine_0_Scheduler_0: Trying to Create VM #19 in Datacenter_Montage
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #0 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #1 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #2 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #3 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #4 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #5 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #6 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #7 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #8 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #9 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #10 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #11 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #12 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #13 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #14 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #15 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #16 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #17 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #18 has been created in Datacenter #2, Host #0
+0.1: planner_Montage_Merger__Engine_0_Scheduler_0: VM #19 has been created in Datacenter #2, Host #0
+Cloudlet 100 is not matched.It is possible a stage-in job
+Schedules 100 with 110 to VM 0
+Schedules 0 with 13850 to VM 0
+Schedules 1 with 13110 to VM 13
+Schedules 2 with 13420 to VM 5
+Schedules 3 with 13300 to VM 12
+Schedules 4 with 13160 to VM 14
+Schedules 5 with 13570 to VM 9
+Schedules 6 with 13250 to VM 10
+Schedules 7 with 13650 to VM 2
+Schedules 8 with 13630 to VM 3
+Schedules 9 with 13700 to VM 6
+Schedules 10 with 13550 to VM 7
+Schedules 11 with 13810 to VM 1
+Schedules 12 with 13620 to VM 4
+Schedules 13 with 13360 to VM 11
+Schedules 14 with 13170 to VM 15
+Schedules 15 with 13580 to VM 8
+Schedules 39 with 10580 to VM 13
+Schedules 40 with 10510 to VM 17
+Schedules 22 with 10580 to VM 12
+Schedules 21 with 10640 to VM 19
+Schedules 27 with 10670 to VM 14
+Schedules 33 with 10610 to VM 10
+Schedules 37 with 10540 to VM 11
+Schedules 30 with 10910 to VM 5
+Schedules 35 with 10530 to VM 15
+Schedules 56 with 10480 to VM 16
+Schedules 59 with 10720 to VM 8
+Schedules 28 with 10570 to VM 7
+Schedules 34 with 10530 to VM 18
+Schedules 71 with 10430 to VM 4
+Schedules 55 with 10470 to VM 3
+Schedules 67 with 10570 to VM 2
+Schedules 49 with 10690 to VM 9
+Schedules 50 with 10650 to VM 6
+Schedules 64 with 10640 to VM 1
+Schedules 38 with 10410 to VM 0
+Schedules 68 with 10610 to VM 17
+Schedules 74 with 10490 to VM 8
+Schedules 32 with 10490 to VM 13
+Schedules 60 with 10490 to VM 12
+Schedules 72 with 10790 to VM 11
+Schedules 29 with 10740 to VM 10
+Schedules 43 with 10400 to VM 19
+Schedules 69 with 10660 to VM 15
+Schedules 65 with 10590 to VM 16
+Schedules 23 with 10740 to VM 4
+Schedules 31 with 10550 to VM 14
+Schedules 73 with 10650 to VM 18
+Schedules 41 with 10770 to VM 3
+Schedules 66 with 10720 to VM 7
+Schedules 70 with 10770 to VM 2
+Schedules 51 with 10550 to VM 0
+Schedules 57 with 10510 to VM 5
+Schedules 25 with 10580 to VM 9
+Schedules 48 with 10480 to VM 6
+Schedules 20 with 10450 to VM 1
+Schedules 24 with 10610 to VM 11
+Schedules 19 with 10640 to VM 0
+Schedules 58 with 10590 to VM 8
+Schedules 36 with 10670 to VM 13
+Schedules 42 with 10460 to VM 7
+Schedules 61 with 10640 to VM 19
+Schedules 77 with 10650 to VM 17
+Schedules 26 with 10670 to VM 12
+Schedules 46 with 10620 to VM 14
+Schedules 52 with 10660 to VM 16
+Schedules 75 with 10610 to VM 15
+Schedules 44 with 10540 to VM 10
+Schedules 17 with 10600 to VM 18
+Schedules 54 with 10560 to VM 4
+Schedules 18 with 10580 to VM 6
+Schedules 47 with 10590 to VM 5
+Schedules 16 with 10570 to VM 3
+Schedules 45 with 10560 to VM 1
+Schedules 76 with 10470 to VM 9
+Schedules 62 with 10460 to VM 2
+Schedules 53 with 10550 to VM 19
+Schedules 63 with 10350 to VM 14
+Schedules 78 with 4960 to VM 14
+Schedules 79 with 5340 to VM 14
+Schedules 80 with 10880 to VM 1
+Schedules 81 with 10960 to VM 14
+Schedules 82 with 10610 to VM 13
+Schedules 83 with 10730 to VM 8
+Schedules 84 with 10660 to VM 12
+Schedules 85 with 10490 to VM 15
+Schedules 86 with 10900 to VM 0
+Schedules 87 with 10750 to VM 4
+Schedules 88 with 10720 to VM 9
+Schedules 89 with 10860 to VM 2
+Schedules 90 with 10740 to VM 6
+Schedules 91 with 10690 to VM 11
+Schedules 92 with 10740 to VM 5
+Schedules 93 with 10690 to VM 10
+Schedules 94 with 10730 to VM 7
+Schedules 95 with 10780 to VM 3
+Schedules 96 with 7630 to VM 14
+Schedules 97 with 9600 to VM 14
+Schedules 98 with 6910 to VM 14
+Schedules 99 with 830 to VM 14
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #0
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #1
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #2
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #3
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #4
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #5
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #6
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #7
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #8
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #9
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #10
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #11
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #12
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #13
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #14
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #15
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #16
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #17
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #18
+125.63099999999999: planner_Montage_Merger__Engine_0_Scheduler_0: Destroying VM #19
+planner_Montage_Merger__Engine_0_Scheduler_0 is shutting down...
+Simulation: No more future events
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Datacenter_Montage is shutting down...
+planner_Montage is shutting down...
+planner_Montage_Merger_ is shutting down...
+planner_Montage_Merger__Engine_0 is shutting down...
+planner_Montage_Merger__Engine_0_Scheduler_0 is shutting down...
+Simulation completed.
+Simulation completed.
+[Montage] makespan=125.63  energy=369043.80 W*s  jobs=101
+[CyberShake] makespan=3611.49  energy=9801444.00 W*s  jobs=101
+[Epigenomics] makespan=33894.74  energy=109018094.60 W*s  jobs=101
+[LIGO] makespan=3263.47  energy=8649286.00 W*s  jobs=101
+
+===== HEFT summary (100 tasks per workflow) =====
+Workflow           Makespan  Energy(W*s)     Jobs
+Montage              125.63    369043.80      101
+CyberShake          3611.49   9801444.00      101
+Epigenomics        33894.74 109018094.60      101
+LIGO                3263.47   8649286.00      101
